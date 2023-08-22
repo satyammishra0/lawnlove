@@ -1,0 +1,19 @@
+/* ----------------------------- */
+/*  Call To Action Card */
+/* ----------------------------- */
+
+.cta {
+  padding: var(--section-padding);
+}
+
+.cta > div {
+  background-color: var(--primary-green-lightest);
+  padding: 5%;
+}
+.cta > div > a {
+  transition: all 0.4s ease;
+}
+
+.cta > div > a:hover {
+  transform: scale(1.1);
+}

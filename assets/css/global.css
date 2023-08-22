@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Fira Sans", sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+:root {
+  --black: #000;
+  --black-100: #0f0f0f;
+  --black-80: #262626;
+  --black-60: #383838;
+  --white: #fff;
+  --gray: #e0e0e0;
+  --primary-blue: #205072;
+  --primary-blue-lighter: #329d9c;
+  --primary-green: #0e5814;
+  --primary-green-lighter: #57ae5b;
+  --primary-green-lightest: #cff4dc;
+  --section-padding: 5% 10%;
+}
+
+html {
+  scroll-behavior: smooth;
+}

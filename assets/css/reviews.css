@@ -1,0 +1,51 @@
+/* ----------------------------- */
+/* Review cards section */
+/* ----------------------------- */
+.review-section {
+  padding: var(--section-padding);
+}
+
+.reviews-parent {
+  padding: 0 5%;
+  margin-top: 3%;
+}
+
+.review-section > h2 {
+  text-align: center;
+}
+
+.reviews-card {
+  width: 100%;
+  margin-top: 5%;
+  padding: 20% 10%;
+  border: 1px solid #eee;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12), 0 2px 4px 0 rgba(0, 0, 0, 0.08);
+}
+
+.reviews-card > a {
+  padding: 5% 0;
+  color: var(--primary-green);
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: underline;
+}
+
+.user-info {
+  grid-template-columns: 45% 1fr;
+  margin-top: 15%;
+}
+
+.user-img > img {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+}
+
+.name {
+  color: var(--black-60);
+}
+
+.address {
+  margin: 5% 0;
+  color: var(--primary-green);
+}

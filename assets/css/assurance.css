@@ -1,0 +1,35 @@
+/* ----------------------------- */
+/*  Eight insured section */
+/* ----------------------------- */
+
+.home-eight-section {
+  padding: var(--section-padding);
+}
+
+.insure-parent {
+  background-color: var(--primary-green-lightest);
+  padding: 5%;
+}
+
+.insure-child {
+  grid-template-columns: 25% 1fr;
+  grid-gap: 5%;
+  width: 85%;
+}
+
+.insure-child-content > p {
+  margin: 5% 0;
+}
+
+.insure-child-content > h4 {
+  font-size: 25px;
+  color: var(--black-60);
+  font-weight: 500;
+}
+
+.insure-child-img > svg {
+  height: 60px;
+  width: 70px;
+  outline: 1px solid var(--primary-green);
+  margin-right: 5%;
+}

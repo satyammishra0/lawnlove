@@ -1,0 +1,230 @@
+.home-first-section {
+  background-image: url("../images/home-banner-bg.jpg");
+  height: 80vh;
+  width: 100%;
+  position: relative;
+}
+
+.home-first-section-inside {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  width: 40%;
+}
+
+.five-stars-rating > i {
+  color: gold;
+  font-size: 18px;
+}
+
+/* ----------------------------- */
+/* Image Strip  starts here */
+/* ----------------------------- */
+
+.home-image-strip {
+  gap: 4%;
+  padding: 3% 10%;
+}
+
+.home-image-strip > div {
+  color: var(--black-60);
+}
+
+.home-image-strip > img {
+  height: 35px;
+  filter: grayscale(100%);
+}
+
+/* ----------------------------- */
+/* Second home section  */
+/* ----------------------------- */
+.home-second-section {
+  padding: 3% 10%;
+}
+
+.parent-second-section {
+  grid-template-columns: 50% 1fr;
+  grid-gap: 6%;
+}
+
+.parent-second-left > div > svg {
+  height: 60px;
+  width: 70px;
+  outline: 1px solid var(--primary-green);
+  margin-right: 5%;
+}
+
+.pentagon > i {
+  font-size: 25px;
+  color: var(--primary-green);
+}
+
+.parent-second-left > h2 {
+  width: 50%;
+}
+
+.parent-second-left > div {
+  align-items: center;
+}
+
+.parent-second-content {
+  margin-top: 7%;
+}
+
+.parent-second-content > p:last-child {
+  margin-top: 5%;
+}
+
+.parent-second-right > img {
+  width: 100%;
+  border-radius: 25px;
+}
+
+/* ----------------------------- */
+/*  SErvices Cards section */
+/* ----------------------------- */
+
+.fifth-card-child > div > svg {
+  height: 60px;
+  width: 70px;
+  outline: 1px solid var(--primary-green);
+  margin-right: 5%;
+}
+
+.fifth-card-child {
+  width: 80%;
+}
+
+.fifth-card-child > div {
+  margin-bottom: 5%;
+}
+
+.fifth-card-content > div {
+  margin-top: 5%;
+}
+
+.fifth-card-content > div > a {
+  text-decoration: underline;
+  color: var(--primary-green);
+  font-weight: 300;
+  line-height: 1.5;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+/* ----------------------------- */
+/*  sixth card section section */
+/* ----------------------------- */
+.home-sixth-section {
+  padding: var(--section-padding);
+}
+
+.home-sixth-section-card {
+  padding: 10%;
+}
+
+.home-sixth-section-card-content {
+  background-color: var(--primary-green);
+  height: 100%;
+  width: 100%;
+  padding: 0 10%;
+  flex-direction: column;
+  border-radius: 25px;
+  color: var(--white);
+}
+
+.home-sixth-section-card-content > P {
+  text-align: center;
+  color: var(--white);
+  font-size: 24px;
+  margin-bottom: 5%;
+  font-weight: 500;
+}
+
+/* ----------------------------- */
+/*  Blog cards section  */
+/* ----------------------------- */
+.blog-cards-section-parent {
+  padding: var(--section-padding);
+}
+
+.blog-cards-section-parent > h2 {
+  margin-bottom: 1%;
+  text-align: center;
+}
+
+.blog-cards-section-parent > p {
+  margin-bottom: 4%;
+  text-align: center;
+}
+
+.blog-cards-parent {
+  border-radius: 18px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: all 0.4s ease;
+}
+
+.blog-cards-parent:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.blog-cards-img > img {
+  height: 220px;
+  width: 100%;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+}
+
+.blog-cards-btn {
+  padding: 4px 12px;
+  border: 0.8px solid var(--primary-green-lighter);
+  color: var(--primary-green-lighter);
+  font-size: 14px;
+  width: max-content;
+  font-weight: 500;
+  border-radius: 12px;
+}
+
+.blog-cards-content {
+  padding: 8%;
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+}
+
+.blog-cards-content > h4 {
+  font-size: 25px;
+  color: var(--black);
+  margin: 5% 0;
+}
+
+/* ----------------------------- */
+/*  Features of our company */
+/* ----------------------------- */
+.home-seventh-section {
+  padding: var(--section-padding);
+  text-align: center;
+}
+
+.home-seventh-section .grid-3 {
+  gap: 6%;
+}
+
+.features {
+  margin-top: 8%;
+  text-align: center;
+}
+
+.features > svg {
+  height: 60px;
+  width: 70px;
+  outline: 1px solid var(--primary-green);
+  margin-right: 5%;
+}
+
+.features > h4 {
+  font-size: 22px;
+  color: var(--black);
+  margin: 5% 0;
+}

@@ -1,0 +1,17 @@
+
+RewriteEngine on
+
+options -indexes
+
+# this command is allow user to access this file 
+RewriteCond %{REQUEST_FILENAME} !-f
+ErrorDocument 404 http//localhost/growupnext/lawn/404
+
+# NC (case insensitive) L means last 
+RewriteRule ^$ pages/index.php [NC,L]
+
+ReWriteRule ^404([/]?)$ pages/error.php [NC,L] 
+
+
+RewriteRule ^service/lawn-mowing$ pages/services/lawn-mowing.php [NC,L]
+

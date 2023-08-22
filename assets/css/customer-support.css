@@ -1,0 +1,30 @@
+/* ----------------------------- */
+/*  Ninth card section */
+/* ----------------------------- */
+.home-ninth-card {
+  padding: var(--section-padding);
+}
+
+.ninth-full-card {
+  border-radius: 25px;
+  background-color: var(--primary-green);
+  padding: 5%;
+  flex-direction: column;
+}
+
+.ninth-full-card > h4 {
+  color: var(--white);
+}
+
+.ninth-full-card > p {
+  margin: 3% 0;
+  color: var(--white);
+}
+
+.person-images {
+  gap: 20px;
+}
+
+.person-images > img {
+  height: 90px;
+}

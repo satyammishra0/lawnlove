@@ -1,0 +1,144 @@
+.width-100 {
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+}
+
+.flex-total-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-center-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-center {
+  display: grid;
+  place-items: center;
+}
+
+.grid-2 {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3%;
+}
+
+.grid-3 {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3%;
+}
+
+.grid-4 {
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3%;
+}
+
+.home-heading {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 55px;
+  text-transform: capitalize;
+}
+
+.main-heading {
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.sub-heading {
+  font-size: 34px;
+  font-weight: 500;
+  line-height: 1.38;
+}
+
+.text {
+  font-weight: 300;
+  color: #626262;
+  line-height: 1.5;
+  font-size: 20px;
+}
+
+.green-underline-txt {
+  text-decoration: underline;
+  color: var(--primary-green);
+  font-weight: 500;
+}
+
+.background-property {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.error-message {
+  font-size: 14px;
+  color: rgb(255, 91, 91);
+}
+
+.success-message {
+  font-size: 14px;
+  color: var(--primary-yellow);
+}
+
+.btn {
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #f0b429;
+  color: #222;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 700px) {
+  .grid-3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .grid-2 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .home-heading {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 38px;
+    text-transform: capitalize;
+  }
+
+  .text {
+    text-align: center;
+  }
+
+  .main-heading {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+  }
+
+  .sub-heading {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .grid-3 {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0;
+  }
+}
