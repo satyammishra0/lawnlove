@@ -3,7 +3,7 @@
 /* ----------------------------- */
 
 .lawn-first-section {
-  height: 80vh;
+  height: 90vh;
   position: relative;
   background-image: url(../../images/services-lawn.jpg);
 }
@@ -38,7 +38,7 @@
 .lawn-first-footer {
   position: absolute;
   bottom: -13%;
-  left: 10%;
+  left: 7%;
   padding: 3% 5%;
   border-radius: 14px;
   background-color: var(--primary-green);
@@ -71,6 +71,7 @@
 .second-services-content > h2 {
   font-weight: 400;
   margin: 5% 0;
+  font-size: 24px;
 }
 
 .home-sixth-section-card {
@@ -94,4 +95,41 @@
 
 .home-sixth-section-card-content > span {
   margin-top: 5%;
+}
+
+.lawn-questions-start {
+  padding: var(--section-padding);
+  padding-top: 0;
+}
+
+.lawn-questions-second {
+  padding: var(--section-padding);
+}
+
+.lawn-questions-second > div > svg {
+  height: 60px;
+  width: 70px;
+  outline: 1px solid var(--primary-green);
+  margin-right: 5%;
+}
+
+.lawn-questions-start > h2,
+.lawn-questions-second > h2 {
+  font-weight: 400;
+  margin: 2% 0;
+  font-size: 24px;
+}
+
+.lawn-questions-second > .flex {
+  margin: 2% 0;
+}
+
+.lawn-questions-img {
+  padding: 0 10%;
+}
+
+.lawn-questions-img > img {
+  height: 60vh;
+  width: 100%;
+  border-radius: 14px;
 }
