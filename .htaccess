@@ -15,3 +15,5 @@ ReWriteRule ^404([/]?)$ pages/error.php [NC,L]
 
 RewriteRule ^service/lawn-mowing$ pages/services/lawn-mowing.php [NC,L]
 
+
+RewriteRule ^states/main_state$ pages/services/main_state.php [NC,L]

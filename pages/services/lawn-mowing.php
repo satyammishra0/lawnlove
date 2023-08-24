@@ -140,7 +140,7 @@
         <div class="lawn-questions-img">
             <img src="<?= get_img() ?>/bearded-man-mowing-lawn.jpg" alt="bearded man mowing lawn">
         </div>
-        <div class="lawn-questions-second">
+        <div class="lawn-questions-second" style="padding-bottom: 0;">
             <div class="flex">
                 <svg viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
                     <g fill="none" fill-rule="evenodd">
@@ -182,7 +182,7 @@
             </p>
         </div>
 
-        <div class="lawn-questions-second">
+        <div class="lawn-questions-second" style="padding-top: 0;">
             <div class="flex">
                 <svg viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
                     <g fill="none" fill-rule="evenodd">
@@ -226,10 +226,9 @@
                 </svg>
                 <h2 class="sub-heading">Lawn mowing guide
                 </h2>
-            </div>
-        </div>
 
-        <div class="lawn-questions-second">
+
+            </div>
             <h2 class="sub-heading">
                 When’s the best time to cut my grass?
             </h2>
@@ -237,7 +236,6 @@
                 The best time to mow a lawn is early in the morning or in the evening. This is because mowing during the middle of the day where temperatures are at their highest can cause the plant to go into shock. It is also recommended to mow when your grass is dry. Dry grass allows your lawn mowers to function better as well as minimize disease exposure that can spread from plant to plant. Between the hours of 8:00am - 10:00am is generally the best time to cut grass.
             </p>
         </div>
-
         <div class="lawn-questions-img">
             <img src="<?= get_img() ?>/before-after-lawn.jpg" alt="Before after lawn mowing">
             <p class="text">
@@ -249,7 +247,7 @@
             </p>
         </div>
 
-        <div class="lawn-questions-second">
+        <div class="lawn-questions-second " style="padding-bottom: 0;">
             <h2>Grass cutting tips</h2>
             <ul class="text">
                 <li>Select an appropriate mowing height. Generally speaking, the appropriate mowing height is two to three inches. Set the blade to the correct height of cut and mow frequently enough so you cut off no more than the top third of the grass plant. This will encourage stronger and healthier roots.</li>
@@ -266,7 +264,7 @@
             <p class="text">
                 The correct lawnmower for your grass will provide a clean cut, every time. There are several factors to consider when choosing the best mower for you.
             </p>
-            <div class="lawn-questions-img">
+            <div class="lawn-questions-img lawn-questions-img-2">
                 <img src="<?= get_img() ?>/types-of-lawn-mowers.jpg" alt="bearded man mowing lawn">
             </div>
 
@@ -274,10 +272,10 @@
             <ul class="text">
                 A push mower or walk-behind mower is ideal on 1/2 acre or less. Push Mower varieties include:
 
-                <li><b>Manual reel mower:</b> Manual push mowers are environmentally friendly and quiet. This is a good choice for small, flat lawns.</b>
-                <li><b>Electric mower:</b> Corded and cordless (battery-operated) electric mowers are less noisy than gas mowers and great for small yards. Corded mowers require access to an electrical outlet, and battery-operated types may require a re-charge mid-mow. Cordless mowers charge times will vary by battery and charger, ranging from 30 minutes to a few hours.</b>
-                <li><b>Gas-Powered push mower: </b>Ideal for medium-sized lawns, gas mowers are the conventional option for yards up to 1/2 acre in size. A gas mower is more powerful and easier to maneuver than manual and electric options and provides more power. Most crank with a pull start, but some feature an electric starter that eliminates the need to use the pull cord. Keep in mind, you will need the correct fuel.</b>
-                <li><b>Mulching mower:</b> Mulching mowers cut and drop grass clippings to the ground as you mow. They have a handful of benefits, including increasing the addition of nutrients and disbursement of beneficial microorganisms into the soil.</b>
+                <li>Manual reel mower: Manual push mowers are environmentally friendly and quiet. This is a good choice for small, flat lawns.
+                <li>Electric mower: Corded and cordless (battery-operated) electric mowers are less noisy than gas mowers and great for small yards. Corded mowers require access to an electrical outlet, and battery-operated types may require a re-charge mid-mow. Cordless mowers charge times will vary by battery and charger, ranging from 30 minutes to a few hours.
+                <li>Gas-Powered push mower: Ideal for medium-sized lawns, gas mowers are the conventional option for yards up to 1/2 acre in size. A gas mower is more powerful and easier to maneuver than manual and electric options and provides more power. Most crank with a pull start, but some feature an electric starter that eliminates the need to use the pull cord. Keep in mind, you will need the correct fuel.
+                <li>Mulching mower: Mulching mowers cut and drop grass clippings to the ground as you mow. They have a handful of benefits, including increasing the addition of nutrients and disbursement of beneficial microorganisms into the soil.
             </ul>
             <p class="text">
                 A riding mower is good for a yard a 1/2 acre or larger. For large or sloped lawns, a riding mower or lawn tractor is the best option because they allow you to get a big job done quickly.
@@ -285,6 +283,28 @@
             </p>
         </div>
 
+
+        <div class="lawn-questions-second" style="padding-top: 0;">
+            <div class="flex">
+                <svg viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+                    <g fill="none" fill-rule="evenodd">
+                        <path d="M4.72 14.018L22.678 2.646a8 8 0 018.412-.092l19.042 11.487A8 8 0 0154 20.89v18.752a8 8 0 01-3.985 6.92L30.97 57.612a8 8 0 01-8.177-.088L4.838 46.588A8 8 0 011 39.756V20.777a8 8 0 013.72-6.759z" class="stroke-current" stroke-linejoin="round" stroke-width="2"></path>
+                        <path class="fill-current" d="M33.903 32a69.355 69.355 0 01-1.532 2.319c4.653.684 7.035 2.15 7.035 2.88 0 .971-4.22 3.248-12.406 3.248-8.185 0-12.406-2.277-12.406-3.248 0-.73 2.381-2.195 7.035-2.88A69.41 69.41 0 0120.097 32C15.506 32.852 12 34.603 12 37.199 12 41.007 19.547 43 27 43c7.454 0 15-1.993 15-5.801 0-2.596-3.504-4.347-8.097-5.199z"></path>
+                        <path class="fill-current" d="M26.994 13.304c-4.781 0-8.657 3.91-8.657 8.734 0 3.46 4.453 10.08 6.972 13.549.394.542 1.02.862 1.685.862a2.08 2.08 0 001.685-.862c2.518-3.468 6.972-10.089 6.972-13.55 0-4.823-3.876-8.733-8.657-8.733zm0 14.157c-2.825 0-5.123-2.319-5.123-5.168 0-2.85 2.298-5.17 5.123-5.17s5.123 2.32 5.123 5.17-2.298 5.168-5.123 5.168z"></path>
+                        <path class="fill-current" d="M26.994 19.149c-1.718 0-3.116 1.41-3.116 3.144 0 1.732 1.398 3.143 3.116 3.143 1.718 0 3.116-1.41 3.116-3.143 0-1.735-1.398-3.144-3.116-3.144z"></path>
+                    </g>
+                </svg>
+                <h2 class="sub-heading">Contact Lawn Love for the best lawn mowing service
+                </h2>
+            </div>
+            <p class="text">
+                Are you ready to have the best lawn care service and a lawn that will make your neighbors green with envy? Call our professional lawn service experts today or get a quote online for a free estimate for affordable grass cutting services from a Lawn Love approved lawn care company. We understand that each customer and their lawn has different needs and therefore requires different care. Let Lawn Love put together a customizable and comprehensive solution for your best lawn care service needs!
+            </p>
+        </div>
+
+        <p class="bold-final-text">
+            If your yard could benefit from mowing and you need the best, give us a call at <strong>(800) 706-4117</strong>, or get a <strong>free quote online</strong> to be connected with a lawn specialist. Your yard will thank you.
+        </p>
 
     </section>
 
