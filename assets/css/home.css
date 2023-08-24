@@ -18,24 +18,6 @@
 }
 
 /* ----------------------------- */
-/* Image Strip  starts here */
-/* ----------------------------- */
-
-.home-image-strip {
-  gap: 4%;
-  padding: 3% 10%;
-}
-
-.home-image-strip > div {
-  color: var(--black-60);
-}
-
-.home-image-strip > img {
-  height: 35px;
-  filter: grayscale(100%);
-}
-
-/* ----------------------------- */
 /* Second home section  */
 /* ----------------------------- */
 .home-second-section {

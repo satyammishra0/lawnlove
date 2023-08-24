@@ -1,5 +1,5 @@
 /* ----------------------------- */
-/* Image Strip  starts here */
+/* Main first section here  */
 /* ----------------------------- */
 
 .lawn-first-section {
@@ -37,9 +37,9 @@
 
 .lawn-first-footer {
   position: absolute;
-  bottom: -15%;
-  left: 20%;
-  padding: 2% 5%;
+  bottom: -13%;
+  left: 10%;
+  padding: 3% 5%;
   border-radius: 14px;
   background-color: var(--primary-green);
 }
@@ -47,6 +47,51 @@
 .lawn-first-footer-item > svg {
   height: 60px;
   width: 70px;
-  outline: 1px solid var(--primary-green);
+  outline: 1px solid var(--white);
   margin-right: 5%;
+}
+
+.lawn-first-footer-item > p {
+  width: 50%;
+  color: var(--white);
+}
+
+/* ----------------------------- */
+/* Featured by section */
+/* ----------------------------- */
+
+.home-image-strip {
+  margin-top: 6%;
+}
+
+/* ----------------------------- */
+/* Second serrvices  section */
+/* ----------------------------- */
+
+.second-services-content > h2 {
+  font-weight: 400;
+  margin: 5% 0;
+}
+
+.home-sixth-section-card {
+  padding: 5% 0;
+}
+
+.home-sixth-section-card-content {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.135);
+}
+
+.home-sixth-section-card-content > h2 {
+  color: var(--black);
+}
+
+.home-sixth-section-card-content > p {
+  margin: 4% 0;
+  font-weight: 300;
+  color: var(--black);
+}
+
+.home-sixth-section-card-content > span {
+  margin-top: 5%;
 }

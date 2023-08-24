@@ -9,6 +9,7 @@
 <link rel="stylesheet" href="<?= get_css() ?>assurance.css">
 <link rel="stylesheet" href="<?= get_css() ?>customer-support.css">
 <link rel="stylesheet" href="<?= get_css() ?>footer.css">
+<link rel="stylesheet" href="<?= get_css() ?>featured-by-images.css">
 
 
 <!-- ------------------------ -->

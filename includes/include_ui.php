@@ -11,5 +11,6 @@ define("assurance", COMP . "assurance.php");
 define("customer_support", COMP . "customer-support.php");
 define("reviews", COMP . "reviews.php");
 define("script", COMP . "script.php");
+define("featured_by_images", COMP . "featured-by-images.php");
 
 define("page_bottom", COMP . "../page_bottom.php");
