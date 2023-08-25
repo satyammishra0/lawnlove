@@ -80,7 +80,7 @@
                 </thead>
                 <tbody>
                     <tr class="border-t border-grey-500">
-                        <td class="px-4 py-2 whitespace-no-wrap state-table-anchor">Mowing & Maintenance</td>
+                        <td class="px-4 py-2 ">Mowing & Maintenance</td>
                         <td class="px-4 py-2">100.00%</td>
                     </tr>
                 </tbody>
