@@ -1,0 +1,19 @@
+.parent-second-left > div > h2 {
+  margin: 4% 0;
+}
+
+.home-sixth-section-second {
+  padding: 0 20%;
+}
+
+.second-services-content > ul > li {
+  margin: 1% 0;
+  font-weight: 400;
+}
+
+.second-services-content > ul > li > i {
+  margin-right: 6px;
+  color: var(--primary-green);
+  font-size: 25px;
+  font-weight: 500;
+}
