@@ -1,18 +1,19 @@
 <header class="header flex-center-between">
     <div class="main-logo">
         <a href="#">
-            <img src="<?= get_img() ?>/light-logo.png" alt="Main Logo" />
+            <!-- <img src="<?= get_img() ?>/logo-2.png" alt="Main Logo" /> -->
+            City Landscape Services
         </a>
     </div>
     <nav class="nav">
         <ul class="nav-list flex-center-between">
-            <li class="nav-links"><a href="./index.html">Home</a></li>
-            <li class="nav-links"><a href="./about.html">About Us</a></li>
-            <li class="nav-links"><a href="./services.html">Services</a></li>
-            <li class="nav-links"><a href="./faq.html">FAQs</a></li>
-            <li class="nav-links"><a href="./careers.html">Careers</a></li>
-            <li class="nav-links"><a href="./contact.html">Contact Us</a></li>
-            <button><a href="tel:+91 1234567800">Contact Us</a></button>
+            <li class="nav-links"><a href="<?= home_path() ?>pages/about-us.php">About Us</a></li>
+            <li class="nav-links"><a href="<?= home_path() ?>pages/blog.php">Blog</a></li>
+            <li class="nav-links"><a href="<?= home_path() ?>pages/reviews.php">Reviews</a></li>
+            <li class="nav-links"><a href="<?= home_path() ?>pages/services/lawn-mowing.php">lawn mowing</a></li>
+            <li class="nav-links"><a href="<?= home_path() ?>pages/states/main_state.php">States</a></li>
+            <li class="nav-links"><a href="<?= home_path() ?>pages/uses/residential-lawn-care.php">Uses</a></li>
+            <li class="nav-links"><a href="tel:+91 1234567800">Contact Us</a></li>
         </ul>
     </nav>
 

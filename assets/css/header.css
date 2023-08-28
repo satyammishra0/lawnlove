@@ -8,26 +8,36 @@ body {
 
 .header {
   height: 10vh;
-  position: relative;
+  position: fixed;
+  width: 100%;
   top: 0;
-  padding: 4% 5%;
+  padding: 4% 10%;
   left: 0;
   border-bottom: 0.4px solid var(--white);
   z-index: 1000;
   background-color: var(--white);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .header-logo > a > img {
-  height: 80px;
+  height: 40px;
   width: 100%;
+}
+
+.main-logo > a {
+  color: var(--primary-green);
+  font-size: 28px;
+  font-weight: 600;
 }
 
 .nav-list {
   gap: 20px;
 }
 .nav-links > a {
-  color: var(--secondary-color);
+  color: #0e5814;
   transition: all 0.3s;
+  font-size: 19px;
+  font-weight: 500;
 }
 
 .nav-links > a:hover,

@@ -26,7 +26,7 @@
     <!-- ------------------------ -->
     <!-- First section starts here -->
     <!-- ------------------------ -->
-    <section class="home-first-section background-property">
+    <section class="home-first-section ">
         <div class="home-first-section-inside">
             <h2>
                 Hire a world-class lawn care
@@ -35,7 +35,13 @@
             <p>
                 Fully insured with a total satisfaction guarantee and amazing customer support.
             </p>
-            <button>Our Pricing</button>
+            <div class="home-first-section-input">
+                <label for="pricing ">Get a quick and easy price</label>
+                <div class="home-first-section-input-container grid">
+                    <input type="text " placeholder="Your Street Address">
+                    <button>SEE PRICING</button>
+                </div>
+            </div>
             <p>Rated 4.7/5 out of 100,000+ customer reviews</p>
             <div class="five-stars-rating">
                 <i class='bx bxs-star'></i>
