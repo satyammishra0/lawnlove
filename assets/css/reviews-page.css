@@ -1,0 +1,36 @@
+/* ----------------------------- */
+/* First reviews section starts */
+/* ----------------------------- */
+.reviews-first-section {
+  padding: var(--section-padding);
+}
+
+.reviews-first-section > h2 {
+  position: relative;
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+.reviews-first-section > h2::before {
+  content: "";
+  height: 6px;
+  width: 60px;
+  background-color: #f0b429;
+  position: absolute;
+  bottom: -10%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.reviews-first-section-grid-1 {
+  border: 1px solid var(--gray);
+  height: max-content;
+  padding: 5%;
+}
+
+.reviews-first-section-grid-1 > p {
+  font-weight: 300;
+  color: #626262;
+  line-height: 1.5;
+  font-size: 16px;
+}
