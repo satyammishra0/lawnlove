@@ -20,7 +20,6 @@ $APP_DOMAIN = "";
 
 if ($APP_DIR_INDEX == 0) {
     $APP_DOMAIN =  (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]/";
-    
 } else {
 
     for ($i = 0; $i < $APP_DIR_INDEX  + 1; $i++) {
